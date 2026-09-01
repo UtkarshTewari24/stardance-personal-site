@@ -3,159 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal page of Utkarsh Tewari. Built for the Hack Club Stardance mission.">
     <title>Utkarsh Tewari</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- top bar with the nav links -->
     <header>
-        <div class="wrap bar">
-            <a class="name" href="#top">utkarsh<b>.</b></a>
-            <nav>
-                <a href="#about">about</a>
-                <a href="#projects">projects</a>
-                <a href="#now">now</a>
-                <a href="#contact">contact</a>
+        <div class="header-content">
+            <h1 class="site-title">Utkarsh</h1>
+            <nav class="main-nav">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#robotics">Robotics</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
     </header>
 
-    <div class="wrap" id="top">
+    <section id="about">
+        <div class="container">
+            <h2>About</h2>
+            <p>
+                I'm Utkarsh, a sophomore at Tesla STEM High School in Redmond, WA. I'm into robotics, AI, hardware, and the intersection of biology and technology — I like building ambitious independent projects rather than just following tutorials. Outside of building things, I play competitive tennis and compete in math (<b>AIME qualifier</b>).
+            </p>
+        </div>
+    </section>
 
-        <!-- the big intro at the top -->
-        <section class="hello">
-            <div class="hello-text">
-                <p class="tag">hi, hello, namaste</p>
-                <h1>I'm Utkarsh, and this is<br>my corner of the internet.</h1>
-                <p>
-                    I write code, break it, then figure out why. Right now I'm learning
-                    web development the slow way: one tag at a time. This page is the
-                    proof, every line of it is hand written HTML and CSS.
-                </p>
-                <a class="btn" href="#projects">see what I've made</a>
-            </div>
-            <img class="doodle" src="star.svg" alt="a doodle of a star with a face">
-        </section>
+    <section id="robotics">
+        <div class="container">
+            <h2>Robotics</h2>
+            <p>
+                I compete in <b>VEX Robotics</b> — currently on team <b>1523W</b> (<i>VEX V5 Worlds qualifier</i>), and previously on a VEX AI Worlds-qualifying team. I'm both the drive team member and the autonomous programmer on my team, which means I write the code that lets the robot operate on its own during matches (including computer vision work with YOLOv8).
+            </p>
+        </div>
+    </section>
 
-        <hr>
-
-        <!-- section 1 -->
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="two-up">
-                <div>
-                    <p>
-                        <!-- swap this for your own story if you are reading my code :) -->
-                        I got into programming because I wanted to make things that other
-                        people could actually open and use. Turns out a website is the
-                        easiest way to do that, so here we are.
-                    </p>
-                    <p>
-                        Outside of that I read a lot, argue about films, and lose entire
-                        evenings to problems that could have been solved in ten minutes.
-                        I like the arguing part more than I should.
-                    </p>
-                </div>
-                <div class="card facts">
-                    <p class="card-title">quick facts</p>
-                    <ul>
-                        <li>currently: student + <i>Stardance</i> participant</li>
-                        <li>editor: VS Code, dark theme, no debate</li>
-                        <li>favourite tag so far: <b>&lt;div&gt;</b></li>
-                        <li>tabs or spaces: spaces, sorry</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <!-- section 2 -->
-        <section id="projects">
+    <section id="projects">
+        <div class="container">
             <h2>Projects</h2>
-            <p class="sub">Small things, mostly. They get less small over time.</p>
-
-            <div class="notes">
-                <div class="note note-1">
-                    <h3>this website</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Myoelectric Prosthetic Claw</h3>
                     <p>
-                        A personal page built from scratch for the Hack Club Stardance
-                        mission. No frameworks, no templates, just HTML and a CSS file
-                        I kept rewriting until the boxes lined up.
+                        A school project where I built a working prosthetic hand controlled by muscle signals (EMG sensors + Arduino), with a custom-designed tendon-driven finger mechanism CAD'd in Onshape.
                     </p>
-                    <a href="https://github.com/UtkarshTewari24/stardance-personal-site">source code</a>
                 </div>
 
-                <div class="note note-2">
-                    <h3>project two</h3>
+                <div class="project-card">
+                    <h3>Community Health Bridge</h3>
                     <p>
-                        Replace this with something you built. Say what it does in one
-                        line, then say the one thing about it that was annoying to get
-                        working. That is the interesting part.
+                        A nonprofit I co-founded focused on improving health literacy for kids in grades 4–8.
                     </p>
-                    <a href="#projects">coming soon</a>
                 </div>
 
-                <div class="note note-3">
-                    <h3>project three</h3>
+                <div class="project-card">
+                    <h3>Scanning Tunneling Microscope</h3>
                     <p>
-                        And this one too. Half finished projects count, put them here
-                        anyway. Nobody has a folder full of finished things.
+                        An independent hardware build, designing and funding a microscope capable of imaging at the atomic scale.
                     </p>
-                    <a href="#projects">coming soon</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>YIMO (Youth International Math Olympiad)</h3>
+                    <p>
+                        I'm on the core tech team, handling testing infrastructure and marketing systems for the organization's platform.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <hr>
-
-        <!-- section 3 -->
-        <section id="now">
-            <h2>What I'm Learning</h2>
-            <p class="sub">A running list. Things move to the left column when they stop scaring me.</p>
-
-            <div class="two-up">
-                <div class="card">
-                    <p class="card-title">getting comfortable</p>
-                    <ul class="check">
-                        <li>HTML structure and semantic tags</li>
-                        <li>CSS layout, flexbox mostly</li>
-                        <li>git commit, git push, repeat</li>
-                    </ul>
-                </div>
-                <div class="card card-dark">
-                    <p class="card-title">still fighting</p>
-                    <ul class="check">
-                        <li>making it look right on a phone</li>
-                        <li>JavaScript, properly this time</li>
-                        <li>naming my CSS classes something sensible</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <!-- section 4 -->
-        <section id="contact">
+    <section id="contact">
+        <div class="container">
             <h2>Contact</h2>
-            <p class="sub">Say hi, send me something you made, or tell me my margins are off.</p>
-            <div class="links">
-                <a href="mailto:utkarsh.tewari@hotmail.com">email me</a>
-                <a href="https://github.com/UtkarshTewari24">github</a>
-                <a href="https://stardance.hackclub.com/@utkarsh_tewari">stardance</a>
+            <p>Let's connect:</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com">Email</a>
+                <a href="https://github.com">GitHub</a>
+                <a href="https://linkedin.com">LinkedIn</a>
             </div>
-        </section>
-
-    </div>
+        </div>
+    </section>
 
     <footer>
-        <div class="wrap">
-            <p>Built by hand with HTML and CSS. Last touched September 2026.</p>
+        <div class="container">
+            <p>&copy; 2026 Utkarsh Tewari. Built with HTML and CSS.</p>
         </div>
     </footer>
-
 </body>
 </html>
