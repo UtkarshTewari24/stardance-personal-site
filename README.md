@@ -28,6 +28,6 @@ Then visit `http://localhost:8000`.
 
 ## Deployment
 
-Deployment URL: TODO — add the live URL after publishing this repository.
+Deployment URL: https://utkarshtewari24.github.io/stardance-personal-site/
 
-Repository URL: TODO — add the public repository URL after creating it.
+Repository URL: https://github.com/UtkarshTewari24/stardance-personal-site
