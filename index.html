@@ -1,130 +1,93 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A bright, thoughtful personal site for a curious builder.">
-  <title>Alex Rivera — Curious Builder</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Tewari</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
-
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="Alex Rivera home">
-        <span class="brand-mark" aria-hidden="true">AR</span>
-        <span>Alex Rivera</span>
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main-content">
-    <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Open to ideas &amp; good questions</p>
-          <h1 id="hero-title">Building useful things with <em>curiosity.</em></h1>
-          <p class="hero-lede">Hi, I’m Alex — a student, maker, and lifelong learner exploring the space between thoughtful design and practical technology.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">See my work <span aria-hidden="true">↓</span></a>
-            <a class="button button-secondary" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
-          </div>
-          <div class="hero-note"><span aria-hidden="true">✦</span> Currently learning: creative coding, electronics, and better ways to explain big ideas.</div>
+    <header>
+        <div class="header-content">
+            <h1 class="site-title">Utkarsh</h1>
+            <nav class="main-nav">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#robotics">Robotics</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
-        <div class="hero-art" aria-label="Abstract illustration of a sunrise over layered hills" role="img">
-          <div class="sun"></div>
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="hill hill-back"></div>
-          <div class="hill hill-front"></div>
-          <div class="art-label">made with<br><strong>intent</strong></div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About</h2>
+            <p>
+                I'm Utkarsh, a sophomore at Tesla STEM High School in Redmond, WA. I'm into robotics, AI, hardware, and the intersection of biology and technology — I like building ambitious independent projects rather than just following tutorials. Outside of building things, I play competitive tennis and compete in math (<b>AIME qualifier</b>).
+            </p>
         </div>
-      </div>
     </section>
 
-    <section class="section section-light" id="about" aria-labelledby="about-title">
-      <div class="container about-grid">
-        <div>
-          <p class="section-kicker">01 / About</p>
-          <h2 id="about-title">A little context goes a long way.</h2>
+    <section id="robotics">
+        <div class="container">
+            <h2>Robotics</h2>
+            <p>
+                I compete in <b>VEX Robotics</b> — currently on team <b>1523W</b> (<i>VEX V5 Worlds qualifier</i>), and previously on a VEX AI Worlds-qualifying team. I'm both the drive team member and the autonomous programmer on my team, which means I write the code that lets the robot operate on its own during matches (including computer vision work with YOLOv8).
+            </p>
         </div>
-        <div class="about-copy">
-          <p class="intro">I like turning vague “what if?” ideas into things people can actually try. My work sits at the intersection of learning, making, and sharing.</p>
-          <p class="placeholder-note">TODO: Replace this introduction with your own story — where you’re from, what you’re learning, and what motivates you.</p>
-          <div class="facts" aria-label="Quick facts">
-            <div class="fact"><span class="fact-number">03</span><span class="fact-label">things I’m<br>learning now</span></div>
-            <div class="fact"><span class="fact-number">∞</span><span class="fact-label">questions worth<br>asking</span></div>
-            <div class="fact"><span class="fact-number">01</span><span class="fact-label">new project<br>at a time</span></div>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <section class="section section-ink" id="projects" aria-labelledby="projects-title">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker section-kicker-bright">02 / Selected work</p>
-            <h2 id="projects-title">Small experiments.<br><em>Real momentum.</em></h2>
-          </div>
-          <p class="section-aside">A few places where I’ve been learning by doing.</p>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Myoelectric Prosthetic Claw</h3>
+                    <p>
+                        A school project where I built a working prosthetic hand controlled by muscle signals (EMG sensors + Arduino), with a custom-designed tendon-driven finger mechanism CAD'd in Onshape.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Community Health Bridge</h3>
+                    <p>
+                        A nonprofit I co-founded focused on improving health literacy for kids in grades 4–8.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Scanning Tunneling Microscope</h3>
+                    <p>
+                        An independent hardware build, designing and funding a microscope capable of imaging at the atomic scale.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>YIMO (Youth International Math Olympiad)</h3>
+                    <p>
+                        I'm on the core tech team, handling testing infrastructure and marketing systems for the organization's platform.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="project-grid">
-          <article class="project-card project-card-featured">
-            <div class="project-topline"><span>01</span><span>Web / Learning</span></div>
-            <h3>Project Aurora</h3>
-            <p>A calm, colorful dashboard for turning daily goals into visible progress.</p>
-            <a href="#contact" aria-label="Ask about Project Aurora">View project <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="project-card project-card-sand">
-            <div class="project-topline"><span>02</span><span>Hardware / Play</span></div>
-            <h3>Little Signals</h3>
-            <p>An experiment in making invisible data feel tangible, friendly, and fun.</p>
-            <a href="#contact" aria-label="Ask about Little Signals">View project <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="project-card project-card-outline">
-            <div class="project-topline"><span>03</span><span>Writing / Notes</span></div>
-            <h3>Field Notes</h3>
-            <p>Short explainers about what I’m learning, what surprised me, and what’s next.</p>
-            <a href="#contact" aria-label="Ask about Field Notes">View project <span aria-hidden="true">↗</span></a>
-          </article>
-        </div>
-        <p class="placeholder-note placeholder-note-dark">TODO: Swap these examples for your real projects, links, screenshots, or class work.</p>
-      </div>
     </section>
 
-    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="container contact-grid">
-        <div>
-          <p class="section-kicker">03 / Contact</p>
-          <h2 id="contact-title">Let’s make the<br><em>next thing</em> together.</h2>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Let's connect:</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com">Email</a>
+                <a href="https://github.com">GitHub</a>
+                <a href="https://linkedin.com">LinkedIn</a>
+            </div>
         </div>
-        <div class="contact-copy">
-          <p>Have a question, a collaboration idea, or a good recommendation? I’d love to hear from you.</p>
-          <a class="contact-email" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
-          <p class="placeholder-note">TODO: Replace the email address and add your preferred social links.</p>
-          <div class="social-links" aria-label="Social links">
-            <a href="#contact">GitHub</a>
-            <a href="#contact">LinkedIn</a>
-            <a href="#contact">Resume</a>
-          </div>
-        </div>
-      </div>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <span>© 2026 Alex Rivera</span>
-      <span>Built with HTML + CSS <span aria-hidden="true">✦</span></span>
-    </div>
-  </footer>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Utkarsh Tewari. Built with HTML and CSS.</p>
+        </div>
+    </footer>
 </body>
 </html>
