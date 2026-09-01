@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <g transform="rotate(-6 100 100)">
+    <polygon
+      points="100,15 121,71 181,74 134,111 150,169 100,136 50,169 66,111 19,74 79,71"
+      fill="#ffcf5c" stroke="#20264a" stroke-width="7" stroke-linejoin="round" />
+    <circle cx="83" cy="82" r="5" fill="#20264a" />
+    <circle cx="117" cy="82" r="5" fill="#20264a" />
+    <path d="M 84 102 Q 100 118 116 102" fill="none" stroke="#20264a"
+          stroke-width="6" stroke-linecap="round" />
+  </g>
+</svg>
