@@ -1,26 +1,16 @@
-# Utkarsh Tewari — Personal Site
+# Utkarsh Tewari PERSONAL SITE
 
-A responsive, one-page portfolio for sharing Utkarsh's background in robotics,
-technology, and independent projects.
+A responsive, one-page portfolio sharing me and what makes me ME!
 
 **[View the live site](https://utkarshtewari24.github.io/stardance-personal-site/)**
 
-## Features
+## Features:
 
 - A short introduction and background section
 - A robotics section covering VEX competition experience and autonomous work
 - Project cards for hardware, community, and education projects
-- Sticky, in-page navigation for jumping between sections
-- A responsive layout that adapts to phones, tablets, and desktops
-- No framework, build step, or package installation required
 
 ## Run locally
-
-### Requirements
-
-- A modern web browser
-- Python 3 (only needed to start a local development server)
-
 ### Setup
 
 1. Clone the repository:
